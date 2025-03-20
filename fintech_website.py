@@ -10,8 +10,6 @@ import json
 with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
     counties = json.load(response)
 
-import plotly.express as px
-
 # Custom CSS for styling
 st.markdown("""
 <style>
