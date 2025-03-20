@@ -12,14 +12,6 @@ with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-c
 
 import plotly.express as px
 
-import streamlit as st
-import plotly.express as px
-import pandas as pd
-
-import streamlit as st
-import plotly.express as px
-import pandas as pd
-
 # Custom CSS for styling
 st.markdown("""
 <style>
